@@ -340,8 +340,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1808445591
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6313e486e43b2e142831d15e52310ba5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -429,9 +429,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 771158778}
-  speed: 4.06
-  jumpStrength: 10.61
-  gravityScale: 2.39
+  speed: 5.97
+  jumpStrength: 20
+  gravityScale: 5.42
   groundCheck: {x: 1.2, y: -0.92}
   whatIsGround:
     serializedVersion: 2
