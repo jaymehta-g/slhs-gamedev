@@ -4,18 +4,7 @@ using UnityEngine;
 using System;
 public class Enemy : MonoBehaviour
 {
-    Action enemyStart;
-	Action enemyUpdate;
-	Action enemyFixedUpdate;
-    void Start()
-    {
-        enemyStart();
-    }
-    void Update()
-    {
-        enemyUpdate();
-    }
-	private void FixedUpdate() {
-		enemyFixedUpdate();
+    protected void initializeEnemy() {
+		print("init enemy");
 	}
 }

@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class BeanToast : Enemy
 {
-	
+	private void Start() {
+		initializeEnemy();
+		print("init bean");
+	}
 }
